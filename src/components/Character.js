@@ -7,9 +7,11 @@ const Character = () => {
     const { id } = useParams();
     const [character, setCharacter] = useState(null);
 
-    const url = `https://thronesapi.com/api/v2/Characters/${id}`;
+    
 
     useEffect(() => {
+        const url = `https://thronesapi.com/api/v2/Characters/${id}`;
+        
         fetch(url)
         .then((response) => response.json())
         .then((character) => {
@@ -27,7 +29,7 @@ const Character = () => {
     return (
         <div>
             <p>Indiviual Character Detail</p>
-        <p>{character.firstName}</p>
+        <p>{character.fullName}</p>
         <img src={character.imageUrl} alt="thrones photos"></img>
         <p>{character.title}</p>
         </div>
