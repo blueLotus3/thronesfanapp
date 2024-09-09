@@ -27,12 +27,13 @@ const Character = () => {
     }
 
     return (
-        <div>
+        <div className="charDiv">
             <Link to={`/`}>X</Link>
-            <p>Indiviual Character Detail</p>
+            <p>The Kingdom Presents...</p>
         <p>{character.fullName}</p>
         <img src={character.imageUrl} alt="thrones photos"></img>
-        <p>{character.title}</p>
+        <p>Title: {character.title}</p>
+    <p>Family: {character.family}</p>
         </div>
     )
 

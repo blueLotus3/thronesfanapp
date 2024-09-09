@@ -19,21 +19,14 @@ const Roster = () => {
         });
     }, []);
 
-    // const [selectedChar, setSelectedChar] = useState(null);
-    
-    // const handleClick = (character) => {
-    //     setRoster(character);
-    //     console.log(character)
-    // };
-
     return(
-        <div>
+        <div className="rosterDiv">
         <ul>
         {roster.map((character) => (
             <Link key={character.id} to={`/Character/${character.id}`}>
            {/* <li key={character.id} onClick={() => handleClick(character)}> */}
            <li>
-                {character.firstName}
+                <p>{character.firstName}</p>
         <img src={character.imageUrl} alt="thrones photos"></img>
                </li>
                </Link>
