@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react'
-import { useParams } from 'react-router-dom'
+import { Link, useParams } from 'react-router-dom'
 
 /* Character details that is taken from Roster.js */
 
@@ -28,6 +28,7 @@ const Character = () => {
 
     return (
         <div>
+            <Link to={`/`}>X</Link>
             <p>Indiviual Character Detail</p>
         <p>{character.fullName}</p>
         <img src={character.imageUrl} alt="thrones photos"></img>
