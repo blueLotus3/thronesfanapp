@@ -1,8 +1,12 @@
 .App {
   text-align: center;
   height: 100%;
+  width: 100%;
   margin: 0;
   padding: 0;
+  background-image: linear-gradient(to right,#eef2f3, transparent);
+  opacity: 0.70;
+  background-color: #8e9eab;
 }
 
 body {
@@ -11,18 +15,14 @@ body {
   /* background-image: radial-gradient(circle, #5c0067 0%, #00d4ff 100%); */
   /* Photo by <a href="https://unsplash.com/@cantt?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">cant</a> on <a href="https://unsplash.com/photos/white-clouds-hovering-above-grey-castle-Ipv_MNTzcQI?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Unsplash</a> */
   background-image: url('./images/skycastle.jpg');
+  width: 100vw;
+  min-height: 100vh;
   background-repeat: no-repeat;
   background-position: center;
   background-attachment: fixed;
-  background-size: contain;
+  background-size: cover;
 }
 
-
-
-
-.App-link {
-  color: #61dafb;
-}
 
 /*  Mobile Layout */
 .rosterDiv img {
@@ -45,6 +45,11 @@ body {
 
 .rosterDiv p {
   margin-left: 20px;
+}
+
+.charDiv {
+  height: 100vh;
+  min-width: 100vw;
 }
 
 .charDiv img {
