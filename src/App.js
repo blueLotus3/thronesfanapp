@@ -12,7 +12,6 @@ function App() {
         <Route path='/' element={ <Roster/>} />
         <Route path='/Character/:id' element={<Character />}/>
       </Routes>
-
     </div>
   );
 }

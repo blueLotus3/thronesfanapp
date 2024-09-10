@@ -1,22 +1,25 @@
 .App {
   text-align: center;
+  height: 100%;
+  margin: 0;
+  padding: 0;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+body {
+  font-family: 'MedievalSharp';
+  font-size: 22px;
+  background-image: radial-gradient(circle, #5c0067 0%, #00d4ff 100%);
 }
 
 .App-link {
   color: #61dafb;
 }
 
+.dragon {
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
 
 /*  Mobile Layout */
 .rosterDiv img {
@@ -43,8 +46,8 @@
 
 .charDiv img {
   display: block;
-  width: 400px;
-  height: 400px;
+  width: 280px;
+  height: 280px;
   object-fit: cover;
   margin-left: auto;
   margin-right: auto;
