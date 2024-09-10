@@ -8,17 +8,20 @@
 body {
   font-family: 'MedievalSharp';
   font-size: 22px;
-  background-image: radial-gradient(circle, #5c0067 0%, #00d4ff 100%);
+  /* background-image: radial-gradient(circle, #5c0067 0%, #00d4ff 100%); */
+  /* Photo by <a href="https://unsplash.com/@cantt?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">cant</a> on <a href="https://unsplash.com/photos/white-clouds-hovering-above-grey-castle-Ipv_MNTzcQI?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Unsplash</a> */
+  background-image: url('./images/skycastle.jpg');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed;
+  background-size: contain;
 }
+
+
+
 
 .App-link {
   color: #61dafb;
-}
-
-.dragon {
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
 }
 
 /*  Mobile Layout */
