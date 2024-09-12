@@ -4,9 +4,9 @@
   width: 100%;
   margin: 0;
   padding: 0;
-  background-image: linear-gradient(to right,#eef2f3, transparent);
-  opacity: 0.70;
-  background-color: #8e9eab;
+  background-image: linear-gradient(to right, #757F9A, #D7DDE8, transparent);
+  opacity: 0.88;
+  background-color: grey;
 }
 
 body {
@@ -25,6 +25,9 @@ body {
 
 
 /*  Mobile Layout */
+.rosterDiv {
+  padding-right: 36px; 
+}
 .rosterDiv img {
   display: block;
   width: 300px;
@@ -45,6 +48,13 @@ body {
 
 .rosterDiv p {
   margin-left: 20px;
+}
+
+.backButton {
+    font-size: 40px;
+    text-align: left;
+    padding-left: 30px;
+    padding-top: 20px;
 }
 
 .charDiv {
